@@ -6,27 +6,26 @@
 int main(void)
 {
 	int n;
-	int i;
-	int h;
+	int m;
+	int l;
 
-	for (h = 0; h != 8; h++)
+	for (n = 48; n < 58; n++)
 	{
-		for (n = h + 1; n != 9; n++)
+		for (m = 49; m < 58; m++)
 		{
-			for (n = h + 1; n != 9; n++)
+			for (l = 50; l < 58; l++)
 			{
-				i = n + 1;
-				do {
-					putchar('0' + h);
-					putchar('0' + n);
-					putchar('0' + i);
-					if (h != 7)
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
-						putchar(32);
+						putchar(' ');
 					}
-					i++;
-				} while (i != 10);
+				}
 			}
 		}
 		putchar('\n');
