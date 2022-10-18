@@ -1,11 +1,11 @@
-#include <aras.h>
+#include <_putchar.h>
 /**
  * main - functions/nested loops
  * Return: Always 0
  */
 int main(void)
 {
-	char *abena = "aras";
+	char *abena = "_putchar";
 
 	while (*abena)
 	{
