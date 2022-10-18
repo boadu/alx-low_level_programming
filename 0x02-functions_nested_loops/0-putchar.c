@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-	char *abena = "_putchar"
+	char *s = "_putchar";
 
-		while (*abena)
-		{
-			_putchar(*abena);
-			abena++;
-		}
+	while (*s)
+	{
+		_putchar(*s);
+		s++
+	}
 	_putchar('\n');
 
 	return (0);
