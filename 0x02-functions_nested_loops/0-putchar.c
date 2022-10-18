@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <main.h>
+#include <aras.h>
 /**
  * main - functions/nested loops
  * Return: Always 0
