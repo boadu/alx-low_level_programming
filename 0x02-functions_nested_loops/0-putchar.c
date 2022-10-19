@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * main - functions/nested loops
+ * main - start point
+ *
  * Return: Always 0
  */
 int main(void)
@@ -10,7 +11,7 @@ int main(void)
 	while (*s)
 	{
 		_putchar(*s);
-		s++
+		s++;
 	}
 	_putchar('\n');
 
